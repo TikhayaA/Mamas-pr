@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Choose your plan</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+</head>
+<body>
+    <header data-aos="fade-down">
+        <div class="header container">
+            <a href="index.html" class="header__logo"><img src="assets/img/logo.svg" alt="logo"></a>
+            <div class="unauthorized">
+                <a href="all-courses.html" class="header__link">Tous les cours</a>
+                <a href="login.html" class="header__link">Connexion</a>
+                <div class="stiky-btn">
+                    <a href="create-account.html" class="unauthorized__get-started red-btn">Commencer</a>
+                </div>
+            </div>
+            <div class="authorized">
+                <a href="#" class="header__link">Tous les cours</a>
+                <button class="header__link">Connexion</button>
+            </div>
+        </div>
+    </header>
+    <main class="plan">
+        <div class="container">
+            <div class="plan__container">
+                <h4 class="plan__title">Choisissez votre option</h4>
+                <div class="plan__fields">
+                    <div class="plan__field">
+                        <input class="field__radio" name="courses" type="radio" id="one_course">
+                        <label for="one_course">
+                            <div class="plan__field_check"></div>
+                            <div class="plan__field_info">
+                                <div class="plan__field_title">Obtenir un cours</div>
+                                <div class="plan__field_amount">
+                                    <div class="select" data-state="" id="course_one">
+                                        <div class="select__title" data-default=" ">Module prenatal course</div>
+                                        <div class="select__content">
+                                            <input id="c1" class="select__input" type="radio" name="chose-course" />
+                                            <label for="c1" class="select__label">La naissance en conscience</label>
+                                            <input id="c2" class="select__input" type="radio" name="chose-course" />
+                                            <label for="c2" class="select__label">Nos premières semaines</label>
+                                        </div>
+                                    </div>
+                                    <div class="plan__field_price">€120</div>
+                                </div>
+                            </div>
+                            <div class="plan__field_details">
+                                <div class="plan__field_details-title">Course details</div>
+                                <div class="plan__field_details-info">
+                                    <img src="assets/img/plan-image.png" alt="">
+                                    <div class="plan__field_details-description">Une formation préparée par les médecins, les sage-femmes et les experts pluridisciplinaires,   qui couvre dans les détails tous les aspects et les inquiétudes auxquelles sont confrontées les femmes enceintes. Pour bien préparer le projet de naissance et vivre la grossesse et l'accouchement en toute conscience et sérénité.</div>
+                                </div>
+                            </div>
+                            <div class="plan__field_promo">
+                                <div class="plan__field_promo-titile">Promo Code</div>
+                                <div class="plan__field_promo-input">
+                                    <input type="text" placeholder="Apply Promo Code">
+                                </div>
+                            </div>
+                            <div class="plan__field_paymethod">
+                                <div class="plan__field_paymethod-item">
+                                    <input class="field__radio" name="payment" type="radio" id="credit">
+                                    <label for="credit">
+                                        <div class="plan__field_check"></div>
+                                        <img src="assets/img/credit-card.svg" alt="">
+                                        <span>Credit/Debit</span>
+                                    </label>
+                                </div>
+                                <div class="plan__field_paymethod-item">
+                                    <input class="field__radio" name="payment" type="radio" id="paypal">
+                                    <label for="paypal">
+                                        <div class="plan__field_check"></div>
+                                        <img src="assets/img/PayPal.svg" alt="">
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- <div class="plan__field_description">Consectetur adipiscing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor incidionsectetur</div> -->
+                            <div class="plan__field_description">Get to know more about <a href="#">Refund Policies</a> and <a href="#">CGV (Sales Conditions)</a></div>
+                        </label>
+                    </div>
+                    <div class="plan__field">
+                        <input class="field__radio" name="courses" type="radio" id="premium">
+                        <label for="premium">
+                            <div class="plan__field_check"></div>
+                            <div class="plan__field_info">
+                                <div class="plan__field_title">l'Accès Premium</div>
+                                <div class="plan__field_amount">
+                                    <div class="select">
+                                        Consectetur adipiscing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor incidionsectetur
+                                    </div>
+                                    <div class="plan__field_price">€320</div>
+                                </div>
+                            </div>
+                            <div class="plan__field_benefit">
+                                <div class="plan__field_benefit-item">
+                                    <div class="plan__field_benefit-item_image"><img src="assets/img/star.svg" alt=""></div>
+                                    <div class="plan__field_benefit-item_title">Unlimited Access</div>
+                                    <div class="plan__field_benefit-item_description">Take as many classes as you want – ad-free</div>
+                                </div>
+                                <div class="plan__field_benefit-item">
+                                    <div class="plan__field_benefit-item_image"><img src="assets/img/diamond.svg" alt=""></div>
+                                    <div class="plan__field_benefit-item_title">Quality Teachers</div>
+                                    <div class="plan__field_benefit-item_description">Experts in lorem ipsum, lorem, lorem and lorem</div>
+                                </div>
+                                <div class="plan__field_benefit-item">
+                                    <div class="plan__field_benefit-item_image"><img src="assets/img/wifi.svg" alt=""></div>
+                                    <div class="plan__field_benefit-item_title">Offline Watching</div>
+                                    <div class="plan__field_benefit-item_description">Watch classes whenever you want right from home</div>
+                                </div>
+                            </div>
+                            <div class="plan__field_paymethod">
+                                <div class="plan__field_paymethod-item">
+                                    <input class="field__radio" name="payment" type="radio" id="creditall">
+                                    <label for="creditall">
+                                        <div class="plan__field_check"></div>
+                                        <img src="assets/img/credit-card.svg" alt="">
+                                        <span>Credit/Debit</span>
+                                    </label>
+                                </div>
+                                <div class="plan__field_paymethod-item">
+                                    <input class="field__radio" name="payment" type="radio" id="paypalall">
+                                    <label for="paypalall">
+                                        <div class="plan__field_check"></div>
+                                        <img src="assets/img/PayPal.svg" alt="">
+                                    </label>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <a href="#" class="plan__fields_submit main-btn red-btn form-submit">CONTINUER</a>
+                </div>
+            </div>
+            <div class="pos-element pos-element__pos-left"><img src="assets/img/main-description-left.png" alt=""></div>
+            <div class="pos-element pos-element__pos-right"><img src="assets/img/main-description-right.png" alt=""></div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
